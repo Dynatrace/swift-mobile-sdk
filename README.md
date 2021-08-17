@@ -8,7 +8,8 @@
 * *Xcode* → *File* → *Swift Packages* → *Add Package Dependency...*
 * Use `https://github.com/Dynatrace/swift-mobile-sdk.git` to add the Dynatrace package repository.
 * Select the desired product (`Dynatrace` or `DynatraceSessionReplay`).
-* For updating the product selection you have to remove the package and add it again (as of Xcode 12 there is no edit feature for Swift packages).
+* To update the package version rule double-click the `Dynatrace` entry in the *Swift Packages* tab of the Xcode project settings.
+* To update the product selection you have to remove the package and add it again (as of Xcode 12 there is no edit feature for Swift packages).
 
 ## Updating
 * *Xcode* → *File* → *Swift Packages* → *Update to Latest Package Versions*
