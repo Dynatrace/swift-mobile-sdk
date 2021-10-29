@@ -1,0 +1,1 @@
+// empty file required for the wrapper target to be able to indirectly add flags to the binary target

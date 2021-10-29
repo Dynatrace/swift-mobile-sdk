@@ -19,6 +19,9 @@
 ### Dynatrace
 This adds Dynatrace OneAgent for Mobile for automatic mobile app instrumentation.
 
+### Dynatrace-Static
+This adds Dynatrace OneAgent for Mobile for automatic mobile app instrumentation as static XCFramework
+
 ### DynatraceSessionReplay
 This adds Session Replay module for replay on crash. This product includes Dynatrace OneAgent for Mobile and is not available for tvOS.
 
