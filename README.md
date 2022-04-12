@@ -17,10 +17,10 @@
 ## Products
 
 ### Dynatrace
-This adds Dynatrace OneAgent for Mobile for automatic mobile app instrumentation.
+This adds Dynatrace OneAgent SDK for iOS for automatic mobile app instrumentation.
 
 ### Dynatrace-Static
-This adds Dynatrace OneAgent for Mobile for automatic mobile app instrumentation as static XCFramework
+This adds OneAgent SDK for iOS for automatic mobile app instrumentation as static XCFramework. Due to some Swift Package Manager limitations `-ObjC` must be added manually to _Other Linker Flags_ in the according Xcode project target settings to correctly link this static XCFramework.
 
 ### DynatraceSessionReplay
 This adds Session Replay module for replay on crash. This product includes Dynatrace OneAgent for Mobile and is not available for tvOS.
