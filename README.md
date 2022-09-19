@@ -32,7 +32,10 @@ Follow the configuration setup for instrumenting mobile apps from the Dynatrace 
 * configure the data privacy
 
 ## License
-* Dynatrace Swift Package is under Apache 2.0 license. See LICENSE for details.
+* Dynatrace Swift Package is under Apache 2.0 license. See LICENSE for details. Additionally see [terms of use](https://www.dynatrace.com/company/trust-center/terms-of-use/).
+
+## Terms of Use
+[Terms of use](https://www.dynatrace.com/company/trust-center/terms-of-use/)
 
 ## Dynatrace Help
 * [Dynatrace Help - Mobile OneAgent for iOS](https://www.dynatrace.com/support/help/shortlink/ios-hub)
