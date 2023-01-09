@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Dynatrace",
     platforms: [
-        .iOS(.v9), .tvOS(.v11)
+        .iOS(.v11), .tvOS(.v11)
     ],
     products: [
         .library(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Dynatrace",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.255.1.1006/dynatrace-mobile-agent-ios-8.255.1.1006-xcframework.zip",
-            checksum: "fa2a64f06cd465f84684e16290110bded0e8c91d5a14af1092ea67c75c180cc9"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.257.1.1007/dynatrace-mobile-agent-ios-8.257.1.1007-xcframework.zip",
+            checksum: "8e947f2384c5976c9fe86c9325b910cd95bbe8c170ea2f7a13afda6da62e7914"
         ),
         .target( // wrap target to add linker settings
             name: "Dynatrace-Static",
@@ -38,13 +38,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DynatraceStatic",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.255.1.1006/dynatrace-mobile-agent-ios-8.255.1.1006-xcframework-static.zip",
-            checksum: "a30323075c7554b4ecb678213315164b2f0545f20751c48f92b853866a9d708f"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.257.1.1007/dynatrace-mobile-agent-ios-8.257.1.1007-xcframework-static.zip",
+            checksum: "2cfd76d014ab9721e0e526828cd07712cca2213d02c42ed784874d2dd2866cd9"
         ),
         .binaryTarget(
             name: "DynatraceSessionReplay",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.255.1.1006/dynatrace-mobile-agent-ios-8.255.1.1006-replay-xcframework.zip",
-            checksum: "2adae6689ec981e30e8531f1710a940ba1ef37fbb614a76ac70b28268842611f"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.257.1.1007/dynatrace-mobile-agent-ios-8.257.1.1007-replay-xcframework.zip",
+            checksum: "a1f8c857c41bf70344d5298fa01c8072e7a445655291c270c3ba1e5ffd6b0d57"
         ),
     ]
 )
