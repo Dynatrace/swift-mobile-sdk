@@ -1,7 +1,7 @@
 # Swift Package - Dynatrace OneAgent for Mobile
 
 ## Supported Platforms
-* iOS 9+
+* iOS 11+
 * tvOS 11+
 
 ## Adding to Xcode
@@ -32,7 +32,7 @@ Follow the configuration setup for instrumenting mobile apps from the Dynatrace 
 * configure the data privacy
 
 ## License
-* [Terms of use](https://www.dynatrace.com/company/trust-center/terms-of-use/)
+* [License](https://github.com/Dynatrace/dem-license/blob/main/LICENSE.md)
 
 ## Dynatrace Help
 * [Dynatrace Help - Mobile OneAgent for iOS](https://www.dynatrace.com/support/help/shortlink/ios-hub)
