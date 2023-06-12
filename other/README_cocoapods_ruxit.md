@@ -1,0 +1,1 @@
+**This pod is deprecated, please use the [Dynatrace pod](https://cocoapods.org/pods/Dynatrace) or the [Dynatrace Swift Package Manager](https://github.com/Dynatrace/swift-mobile-sdk) integration instead.**
