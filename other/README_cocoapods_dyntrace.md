@@ -1,6 +1,6 @@
 # Cocoapods - Dynatrace OneAgent for Mobile
 
-[Dynatrace](https://www.dynatrace.com/platform/mobile-app-monitoring/) provides the next generation intelligent application, service and infrastructure monitoring platform.
+[Dynatrace Mobile App Monitoring](https://www.dynatrace.com/platform/mobile-app-monitoring/)
 
 ## Supported Platforms
 * iOS 11+
