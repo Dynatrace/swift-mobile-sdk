@@ -1,5 +1,7 @@
 # Swift Package - Dynatrace OneAgent for Mobile
 
+[Dynatrace Mobile App Monitoring](https://www.dynatrace.com/platform/mobile-app-monitoring/)
+
 ## Supported Platforms
 * iOS 11+
 * tvOS 11+
@@ -27,12 +29,11 @@ This adds Session Replay module for replay on crash. This product includes Dynat
 
 ## Configuration
 Follow the configuration setup for instrumenting mobile apps from the Dynatrace UI:
-
-* update `Info.plist` or provide a configuration dictionary for agent startup
-* configure the data privacy
+* Update `Info.plist` or provide a configuration dictionary for agent startup.
+* Configure the data privacy.
 
 ## License
-* [License](https://github.com/Dynatrace/dem-license/blob/main/LICENSE.md)
+Please see [LICENSE](https://github.com/Dynatrace/dem-license/blob/main/LICENSE.md) for more information.
 
-## Dynatrace Help
-* [Dynatrace Help - Mobile OneAgent for iOS](https://www.dynatrace.com/support/help/shortlink/ios-hub)
+## Documentation
+Detailed documentation can be found [here](https://www.dynatrace.com/support/help/technology-support/operating-systems/ios/).
