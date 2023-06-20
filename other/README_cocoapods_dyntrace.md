@@ -10,7 +10,7 @@
 Add the Dynatrace OneAgent as a dependency within your Podfile.
 
 ```ruby
-pod 'Dynatrace/SessionReplay', '~> 8.267'
+pod 'Dynatrace/SessionReplay', '~> 1007'
 ```
 
 Run `pod install` and remember to use `pod update` whenever you want to update to the latest version available.
