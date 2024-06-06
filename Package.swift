@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Dynatrace",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.291.1.1004/dynatrace-mobile-agent-ios-8.291.1.1004-xcframework.zip",
-            checksum: "74f8789503cc5c59bcc416a87be786384dab36289c75ffb65725866e73780ba7"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.293.1.1003/dynatrace-mobile-agent-ios-8.293.1.1003-xcframework.zip",
+            checksum: "3ac9c97c8238752266ef33392160de7b93f75db8f495a486391be9bf1c9499bb"
         ),
         .target( // wrap target to add linker settings
             name: "Dynatrace-Static",
@@ -38,13 +38,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DynatraceStatic",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.291.1.1004/dynatrace-mobile-agent-ios-8.291.1.1004-xcframework-static.zip",
-            checksum: "12c5e75f09659f6d9615fde2bcbd38eecf300db40999818c70881de70934e63e"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.293.1.1003/dynatrace-mobile-agent-ios-8.293.1.1003-xcframework-static.zip",
+            checksum: "d3d53cd2b36d9cb8f26c89495f1743d363e3324e1db3d73d9be02cdd9eae2c8a"
         ),
         .binaryTarget(
             name: "DynatraceSessionReplay",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.291.1.1004/dynatrace-mobile-agent-ios-8.291.1.1004-replay-xcframework.zip",
-            checksum: "13de15a465f014989bfbaa24b738d1954f46b84a79204719d87e3b22ed1c7f65"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.293.1.1003/dynatrace-mobile-agent-ios-8.293.1.1003-replay-xcframework.zip",
+            checksum: "8512ad9ad654b978bd8b7894a89f857803432fe663b98d66482e04924ae097de"
         ),
     ]
 )
