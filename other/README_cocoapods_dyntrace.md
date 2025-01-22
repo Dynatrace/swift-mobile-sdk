@@ -3,8 +3,8 @@
 [Dynatrace Mobile App Monitoring](https://www.dynatrace.com/platform/mobile-app-monitoring/)
 
 ## Supported Platforms
-* iOS 11+
-* tvOS 11+
+* iOS 12+
+* tvOS 12+
 
 ## Installation
 Add the Dynatrace OneAgent as a dependency within your Podfile.
