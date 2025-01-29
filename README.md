@@ -3,8 +3,8 @@
 [Dynatrace Mobile App Monitoring](https://www.dynatrace.com/platform/mobile-app-monitoring/)
 
 ## Supported Platforms
-* iOS 12+
-* tvOS 12+
+* iOS 11+
+* tvOS 11+
 
 ## Adding to Xcode
 * *Xcode* → *File* → *Swift Packages* → *Add Package Dependency...*
