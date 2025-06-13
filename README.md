@@ -3,8 +3,8 @@
 [Dynatrace Mobile App Monitoring](https://www.dynatrace.com/platform/mobile-app-monitoring/)
 
 ## Supported Platforms
-* iOS 11+
-* tvOS 11+
+* iOS 12+
+* tvOS 12+
 
 ## Adding to Xcode
 * *Xcode* → *File* → *Swift Packages* → *Add Package Dependency...*
@@ -22,6 +22,9 @@
 This adds Dynatrace OneAgent SDK for iOS for automatic mobile app instrumentation.
 
 ### Dynatrace-Static
+
+> Starting with OneAgent for iOS version 8.323, Dynatrace will stop supporting *static builds* as integration methods. 
+
 This adds OneAgent SDK for iOS for automatic mobile app instrumentation as static XCFramework. Due to some Swift Package Manager limitations `-ObjC` must be added manually to _Other Linker Flags_ in the according Xcode project target settings to correctly link this static XCFramework.
 
 ### DynatraceSessionReplay
