@@ -3,8 +3,7 @@
 [Dynatrace Mobile App Monitoring](https://www.dynatrace.com/platform/mobile-app-monitoring/)
 
 ## Supported Platforms
-* iOS 11+
-* tvOS 11+
+Find our supported platforms in our [documentation](https://docs.dynatrace.com/docs/ingest-from/technology-support#mobile-rum).
 
 ## Adding to Xcode
 * *Xcode* → *File* → *Swift Packages* → *Add Package Dependency...*

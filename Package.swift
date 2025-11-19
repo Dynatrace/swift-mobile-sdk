@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Dynatrace",
     platforms: [
-        .iOS(.v11), .tvOS(.v11)
+        .iOS(.v12), .tvOS(.v12)
     ],
     products: [
         .library(
@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Dynatrace",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.325.1.1012/dynatrace-mobile-agent-ios-8.325.1.1012-xcframework.zip",
-            checksum: "e87acf1d0c528a7ccb63bb672d3de2b9e1656365daf18a5b3b050cc2894fcdb6"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.327.1.1020/dynatrace-mobile-agent-ios-8.327.1.1020-xcframework.zip",
+            checksum: "5bc56a15fc8cfe63b1c24b9f4c8f20b93ae93f9cfd98f3710e9e1dda18a952a9"
         ),
         .binaryTarget(
             name: "DynatraceSessionReplay",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.325.1.1012/dynatrace-mobile-agent-ios-8.325.1.1012-replay-xcframework.zip",
-            checksum: "00d8713626ef52c520aab800dd7ce3d4d436b2cc632fbeca3fa0df7420550ea2"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.327.1.1020/dynatrace-mobile-agent-ios-8.327.1.1020-replay-xcframework.zip",
+            checksum: "cda8f351f3a5c0a85ddc9299d3590c9faa4914f8ddc7afdc40cffb35059f77df"
         ),
     ]
 )
