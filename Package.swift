@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Dynatrace",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.329.2.1019/dynatrace-mobile-agent-ios-8.329.2.1019-xcframework.zip",
-            checksum: "e1ea3a8eaeeee2c385996e718e081f03d73d46ffb7b61d79a1473fc851d04bb2"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.331.1.1008/dynatrace-mobile-agent-ios-8.331.1.1008-xcframework.zip",
+            checksum: "18e9d1c1434f9e7c94f878e7567509f9c619a0cd37ab7972699ffc7ea98e923c"
         ),
         .binaryTarget(
             name: "DynatraceSessionReplay",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.329.2.1019/dynatrace-mobile-agent-ios-8.329.2.1019-replay-xcframework.zip",
-            checksum: "27e79cbadb8cf7229ee990d4d266c7ee2f75b1f2aaf019322a01ea8da1d80ac1"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.331.1.1008/dynatrace-mobile-agent-ios-8.331.1.1008-replay-xcframework.zip",
+            checksum: "2701a41b0f9f20e059b1906cb192394ef9ea55f7062787f23d391ae8aa74f9b5"
         ),
     ]
 )
