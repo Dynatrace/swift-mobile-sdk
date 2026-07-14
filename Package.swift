@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Dynatrace",
     platforms: [
-        .iOS(.v12), .tvOS(.v12)
+        .iOS(.v15), .tvOS(.v15)
     ],
     products: [
         .library(
@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Dynatrace",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.341.1.1010/dynatrace-mobile-agent-ios-8.341.1.1010-xcframework.zip",
-            checksum: "e64d6f4ec3afe61ce6446c46fb84eff560bb7eb2319931b19c885044674153d4"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.343.1.1007/dynatrace-mobile-agent-ios-8.343.1.1007-xcframework.zip",
+            checksum: "6b28a336dae71f44c060272cd7c9ca1f89335edd33cd3a5759842cb5e5841de0"
         ),
         .binaryTarget(
             name: "DynatraceSessionReplay",
-            url: "https://mobileagent.downloads.dynatrace.com/ios/8.341.1.1010/dynatrace-mobile-agent-ios-8.341.1.1010-replay-xcframework.zip",
-            checksum: "f3cde3a9456f316fdd096d6b5b94c5b8e0e0210b7bd060c4be29cd99a4d81b83"
+            url: "https://mobileagent.downloads.dynatrace.com/ios/8.343.1.1007/dynatrace-mobile-agent-ios-8.343.1.1007-replay-xcframework.zip",
+            checksum: "cbf9d5535fef927a755d8b31528bda0d8291921cb531a7b166d4dceb41b22519"
         ),
     ]
 )
